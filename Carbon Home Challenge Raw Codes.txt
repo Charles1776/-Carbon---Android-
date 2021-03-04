@@ -1,0 +1,185 @@
+Application("Carbon").View("View").Object("Image Object 5").ScrollTo
+Application("Carbon").View("View").Object("Image Object 5").DblClick
+
+
+
+If Application("home page").View("View 3").Object("Welcome to Carbon!").Exist then
+Application("home page").View("View 3").Object("Sign In").Click
+Application("home page").View("View 4").Object("Phone number").Type("08990001100")
+Application("home page").View("View 4").Object("Enter PIN").Type("1234")
+Application("home page").View("View 4").Object("Sign in").Click
+Application("home page").View("View 5").Object("Verify your phone number").Exist
+Application("home page").View("View 5").Object("0 0 0 0 0 0").Type("123456")
+end if
+
+
+zap.Wait 10
+If Application("home page").View("View 26").Object("Forgot PIN").Exist then
+Application("home page").View("View 26").Object("Forgot PIN").Object("New Object 7").Click
+Application("home page").View("View 7").Object("1").Click
+Application("home page").View("View 7").Object("2").Click
+Application("home page").View("View 7").Object("3").Click
+Application("home page").View("View 7").Object("4").Click
+'Application("home page").View("View 7").Object(".").Click
+end if
+
+'If Application("home page").View("View 6").Object("Forgot PIN").Exist then
+'Application("home page").View("View 10").Object("New Object1").Click
+'//manual entry//'
+If Application("home page").View("View 12").Object("Verify your phone number").Exist then
+Application("home page").View("View 12").Object("0 0 0 0 0 0").Type("123456")
+
+end If
+	
+If Application("home page").View("View 37").Object("Transaction Notification").Exist then
+Application("home page").View("View 37").Object("Okay").Click
+end if
+	
+	
+'If Application("home page").View("View").Object("Skip").Exist then
+'Application("home page").View("View").Object("Skip").Click
+'end If
+'If Application("home page").View("View 2").Object("RETRY").Exist then
+'Application("home page").View("View 2").Object("RETRY").Click
+'end If
+Application("home page").View("View 13").Object("Home").Exist
+Application("home page").View("View 13").Object("4420,301").Exist
+Application("home page").View("View 13").Object("Fund Wallet").Click
+
+Application("home page").View("View 14").Object("Fund wallet").Exist
+Application("home page").View("View 14").Object("Add money with a debit card").Click
+If Application("home page").View("View 15").Object("Continue").Exist then
+Application("home page").View("View 15").Object("Continue").Click
+end if
+
+Application("home page").View("View 16").Object("How much do you want to fund").Exist
+
+Application("home page").View("View 16").Object("Image Object 18").Click
+Application("home page").View("View 18").Object("Image Object 17").Click
+Application("home page").View("View 19").Object("Image Object 20").Type("1000")
+
+'Application("home page").View("View 17").Object("0").Click
+'Application("home page").View("View 17").Object("0").Click
+'Application("home page").View("View 17").Object("0").Click
+Application("home page").View("View 18").Object("Image Object 4").Click
+Application("home page").View("View 16").Object("Proceed").Click
+Application("home page").View("View 20").Object("Service charge: tt10").Exist
+Application("home page").View("View 20").Object("0").Click
+Application("home page").View("View 20").Object("Image Object").Click
+
+Application("home page").View("View 21").Object("1,000").Exist
+Application("home page").View("View 21").Object("Service Charge").Exist
+Application("home page").View("View 21").Object("Total payment").Exist
+Application("home page").View("View 21").Object("Securely pay 441,010").Click
+Application("home page").View("View 23").Object("Enter your Carbon PIN").Click
+
+If Application("home page").View("View 38").Object("OKAY").Exist then
+Application("home page").View("View 38").Object("OKAY").Click
+end if
+
+
+zap.Wait 10
+If Application("home page").View("View 26").Object("Forgot PIN").Exist then
+Application("home page").View("View 26").Object("Forgot PIN").Object("New Object 7").Click
+Application("home page").View("View 7").Object("1").Click
+Application("home page").View("View 7").Object("2").Click
+Application("home page").View("View 7").Object("3").Click
+Application("home page").View("View 7").Object("4").Click
+'Application("home page").View("View 7").Object(".").Click
+end if
+
+If Application("home page").View("View 28").Object("Error").Exist then
+end if	
+
+zap.Wait 10
+Application("home page").View("View 28").Object("Wallet is not available to rec").Exist
+Application("home page").View("View 28").Object("OK").Click
+
+Application("home page").View("View 29").Object("Image Object 2").Click
+Application("home page").View("View 30").Object("Image Object").Click
+
+
+
+
+
+zap.Wait 10
+Application("Carbon").View("View").Object("Image Object 5").ScrollTo
+Application("Carbon").View("View").Object("Image Object 5").DblClick
+
+
+
+
+If Application("home page").View("View 3").Object("Welcome to Carbon!").Exist then
+Application("home page").View("View 3").Object("Sign In").Click
+Application("home page").View("View 4").Object("Phone number").Type("08990001100")
+Application("home page").View("View 4").Object("Enter PIN").Type("1234")
+Application("home page").View("View 4").Object("Sign in").Click
+Application("home page").View("View 5").Object("Verify your phone number").Exist
+Application("home page").View("View 5").Object("0 0 0 0 0 0").Type("123456")
+end if
+
+
+zap.Wait 10
+If Application("home page").View("View 26").Object("Forgot PIN").Exist then
+Application("home page").View("View 26").Object("Forgot PIN").Object("New Object 7").Click
+Application("home page").View("View 7").Object("1").Click
+Application("home page").View("View 7").Object("2").Click
+Application("home page").View("View 7").Object("3").Click
+Application("home page").View("View 7").Object("4").Click
+'Application("home page").View("View 7").Object(".").Click
+end if
+
+
+If Application("home page").View("View 12").Object("Verify your phone number").Exist then
+Application("home page").View("View 12").Object("0 0 0 0 0 0").Type("123456")
+
+end If
+
+
+If Application("home page").View("View 37").Object("Transaction Notification").Exist then
+Application("home page").View("View 37").Object("Okay").Click
+end if
+
+
+
+Application("home page").View("View 13").Object("Home").Exist
+Application("home page").View("View 13").Object("4420,301").Exist
+Application("home page").View("View 13").Object("Buy airtime").Click
+Application("home page").View("View 32").Object("AIRTEL 08990001100").Click
+Application("home page").View("View 32").Object("Next").Click
+
+
+Application("home page").View("View 33").Object("Choose a payment method").Exist
+Application("home page").View("View 33").Object("Pay with DebitATM Card").Exist
+Application("home page").View("View 33").Object("Pay with Wallet").Exist
+Application("home page").View("View 33").Object("Image Object 8").Click
+Application("home page").View("View 33").Object("Image Object").Click
+
+
+Application("home page").View("View 34").Object("Airtime recharge").Exist
+Application("home page").View("View 34").Object("Mobile number").Exist
+Application("home page").View("View 34").Object("Recharge Amount").Exist
+Application("home page").View("View 34").Object("Service Charge").Exist
+Application("home page").View("View 34").Object("Service Provider").Exist
+Application("home page").View("View 34").Object("Total payment").Exist
+Application("home page").View("View 34").Object("Securely pay * 505.00").Click
+
+
+zap.Wait 10
+If Application("home page").View("View 26").Object("Forgot PIN").Exist then
+Application("home page").View("View 26").Object("Forgot PIN").Object("New Object 7").Click
+Application("home page").View("View 7").Object("1").Click
+Application("home page").View("View 7").Object("2").Click
+Application("home page").View("View 7").Object("3").Click
+Application("home page").View("View 7").Object("4").Click
+'Application("home page").View("View 7").Object(".").Click
+end if
+
+Application("home page").View("View 36").Object("Image Object 4").Exist
+Application("home page").View("View 36").Object("Youve just recharged").Exist
+Application("home page").View("View 36").Object("What would you like to do next").Exist
+Application("home page").View("View 36").Object("Image Object 2").Click
+
+If Application("home page").View("View 37").Object("Transaction Notification").Exist then
+Application("home page").View("View 37").Object("Okay").Click
+end if
